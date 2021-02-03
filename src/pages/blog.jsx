@@ -9,7 +9,7 @@ import NotFound from '../pages/404';
 
 const Index = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
-  const noBlog = !posts || !posts.length;
+  const noBlog = true;
 
   if (!posts || !posts.length) {
     return <NotFound />;
@@ -19,6 +19,7 @@ const Index = ({ data }) => {
     <Layout>
       <SEO title="Blog" />
       <Header metadata={data.site.siteMetadata} />
+      {!noBlog && <BlogPosts posts={posts} />}
     </Layout>
   );
 };
