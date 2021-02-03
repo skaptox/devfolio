@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://oscaralbornoz.netlify.app/`,
     // Your Name
     name: 'Oscar Albornoz',
     // Main Site Title
@@ -32,7 +32,7 @@ module.exports = {
         name: 'Vue3-ui',
         description:
           'Very clean Vue3 components styled to integrate nicely with Bulma CSS.',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'http://vue3.dev/',
       },
       {
         name: 'Mach4motors',
@@ -55,7 +55,7 @@ module.exports = {
       {
         name: 'Ignis Gravitas Inc',
         description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        link: 'https://ignisgravitas.com/',
       },
       {
         name: 'Red Vilagro',
