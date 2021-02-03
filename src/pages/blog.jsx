@@ -19,7 +19,6 @@ const Index = ({ data }) => {
     <Layout>
       <SEO title="Blog" />
       <Header metadata={data.site.siteMetadata} />
-      {!noBlog && <BlogPosts posts={posts} />}
     </Layout>
   );
 };

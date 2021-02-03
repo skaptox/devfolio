@@ -3,56 +3,74 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Oscar Albornoz',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Oscar Albornoz | Full-Stack Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `I feel happy with a laptop and a trail bike`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@skaptox`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/skaptox`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/oscar-daniel-albornoz-mora-778415147/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I am a Fullstack developer. I have 4 years of development experience building fullstack products from scratch, developing and integrating APIs, working with a variety of databases and clould platforms and developing mobile applications with React Native. `,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Ignis Gravitas',
+        description: 'Software Platform for Startups',
+        link: 'http://ignisgravitas.com/',
+      },
+      {
+        name: 'Pathscale',
+        description: 'Landing page with CSS animations',
+        link: 'https://www.pathscale.com/',
+      },
+      {
+        name: 'Vue3-ui',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
+          'Very clean Vue3 components styled to integrate nicely with Bulma CSS.',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'ChromeExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+        name: 'Mach4motors',
+        description: 'eCommerce created from scratch',
+        link: 'https://mach4motors--com.b-cdn.net/',
       },
       {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'RevCat Blast',
+        description: 'Web based game',
+        link: 'https://revenge.studio/b',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'PathScale Pte Ltd',
+        description: 'Fronted Developer, February 2020 - Present',
+        link: 'https://www.pathscale.com/',
       },
       {
-        name: 'Globex Corp',
+        name: 'Ignis Gravitas Inc',
         description: 'Full-Stack Developer, December 2017 - February 2020',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Red Vilagro',
+        description: 'Full-Stack Developer, September 2019 - December 2019',
+        link: 'https://redvilagro.com/',
+      },
+      {
+        name: 'Dreamlopers',
+        description: 'Full-Stack Developer, April 2019 - Octuber 2019',
+        link: 'http://dreamlopers.com/',
+      },
+      {
+        name: 'Tradex USA Logistics LLC',
+        description: 'Full-Stack Developer, May 2019 - August 2019',
+        link: 'https://www.linkedin.com/company/tradex-usa-logistics-llc/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,7 +78,7 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'JavaScript (ES6+), Node.js, Express.js, React, Vue, Ruby on Rails, Laravel',
       },
       {
         name: 'Databases',
